@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="89px" viewBox="0 0 89 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>aws-api-gateway</title>
+    <defs>
+        <filter x="-16.9%" y="-16.9%" width="133.8%" height="133.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-1245.000000, -939.000000)" fill-rule="nonzero">
+            <g id="aws-api-gateway" filter="url(#filter-1)" transform="translate(1254.000000, 948.000000)">
+                <polyline id="Path" fill="#634B1E" points="71 31.4250307 53.4054041 32 42 31.4261471 60.8651028 30 71 31.4250307"></polyline>
+                <polyline id="Path" fill="#D9A740" points="61.7130862 30.1653998 71 31 71 14.1764862 61.7130862 10 61 10.6924022 61 29.4495303 61.7130862 30.1653998"></polyline>
+                <polyline id="Path" fill="#886A2A" points="43 14.178408 61 10 61 30.1648756 43 31 43 14.178408"></polyline>
+                <polyline id="Path" fill="#634B1E" points="0 31.4683597 17.5945959 32 29 31.469392 10.1886842 30 0 31.4683597"></polyline>
+                <polyline id="Path" fill="#886A2A" points="9.55984043 30.191951 0 31 0 14.1608148 9.55984043 10 10 10.7166943 10 29.5629016 9.55984043 30.191951"></polyline>
+                <polyline id="Path" fill="#D9A740" points="28 14.178408 10 10 10 30.1648756 28 31 28 14.178408"></polyline>
+                <g id="Group" transform="translate(42.000000, 40.000000)">
+                    <polyline id="Path" fill="#FAD791" points="29 0.581546102 11.4054041 0 0 0.580417325 18.7830068 2.09455929 29 0.581546102"></polyline>
+                    <polyline id="Path" fill="#D9A740" points="18.8243379 1.39245977 29 0.581546102 29 16.9273712 18.8243379 20.9853259 18.2898644 20.0572451 18.2898644 2.22640049 18.8243379 1.39245977"></polyline>
+                    <polyline id="Path" fill="#886A2A" points="0 16.9370787 18.8243379 21 18.8243379 1.39245977 8.04589543e-15 0.580417325 8.04589543e-15 16.9370787"></polyline>
+                </g>
+                <g id="Group" transform="translate(0.000000, 40.000000)">
+                    <polyline id="Path" fill="#FAD791" points="0 0.581546102 17.5945959 0 29 0.580417325 10.052518 2.22572322 0 0.581546102"></polyline>
+                    <polyline id="Path" fill="#886A2A" points="10.1756621 1.39245977 0 0.581546102 0 16.9273712 10.1756621 20.9853259 10.7925147 20.2538782 10.7925147 2.22572322 10.1756621 1.39245977"></polyline>
+                    <polyline id="Path" fill="#D9A740" points="29 16.9370787 10.1756621 21 10.1756621 1.39245977 29 0.580417325 29 16.9370787"></polyline>
+                </g>
+                <g id="Group" transform="translate(16.000000, 0.000000)">
+                    <polyline id="Path" fill="#634B1E" points="10.9871948 24.3530255 20.1441627 23.024804 38.4253215 25.1659035 40 25.915139 31.1208022 26.7188268 10.9871948 24.3530255"></polyline>
+                    <polyline id="Path" fill="#634B1E" points="29.0128052 24.3530255 19.8558373 23.024804 0.787478126 25.4721687 0 25.915139 8.8791978 26.7188268 29.0128052 24.3530255"></polyline>
+                    <polyline id="Path" fill="#FAD791" points="10.9871948 46.9311831 20.1441627 48.2594046 38.3792117 46.1502412 40 45.3690696 31.1208022 44.5653819 10.9871948 46.9311831"></polyline>
+                    <polyline id="Path" fill="#FAD791" points="29.0128052 46.9311831 19.8558373 48.2594046 0.648593095 45.9969938 0 45.3690696 8.8791978 44.5653819 29.0128052 46.9311831"></polyline>
+                    <polyline id="Path" fill="#D9A740" points="40 25.915139 40 17.6928481 30.6355379 15.1597842 30.6355379 4.39799627 20 0 20 0.000229756361 19.5564012 0.584500183 19.4755701 70.106018 20 71 30.6355379 66.6020037 30.6355379 56.1244244 40 53.5913605 40 45.3690696 30.6355379 46.7326736 30.6355379 24.551535 40 25.915139"></polyline>
+                    <polyline id="Path" fill="#886A2A" points="9.3644621 4.39799627 9.3644621 15.1597842 0 17.6928481 0 25.915139 9.3644621 24.551535 9.3644621 46.7326736 0 45.3690696 0 53.5913605 9.3644621 56.1244244 9.3644621 66.6020037 20 71 20 0 9.3644621 4.39799627"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

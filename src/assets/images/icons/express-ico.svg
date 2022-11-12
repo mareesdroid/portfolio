@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 12</title>
+    <defs>
+        <filter x="-12.8%" y="-12.8%" width="125.5%" height="125.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-2" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-1292.000000, -258.000000)">
+            <g id="Group-12" filter="url(#filter-1)" transform="translate(1301.000000, 267.000000)">
+                <circle id="Oval-Copy-2" cx="47" cy="47" r="47"></circle>
+                <g id="expressjs-icon" transform="translate(15.000000, 28.000000)" fill="#000000" fill-rule="nonzero">
+                    <path d="M64,36.16741 C61.672,36.75941 60.232,36.19341 58.94,34.25341 L49.752,21.54141 L48.424,19.78141 L37.694,34.29541 C36.468,36.04141 35.182,36.80141 32.894,36.18341 L46.634,17.73941 L33.842,1.07941002 C36.042,0.651410018 37.562,0.869410018 38.912,2.83941002 L48.442,15.70941 L58.042,2.90941002 C59.272,1.16341002 60.594,0.499410018 62.802,1.14341002 L57.842,7.71941002 L51.122,16.46941 C50.322,17.46941 50.432,18.15341 51.168,19.11941 L64,36.16741 Z M0.016,17.43141 L1.14,11.90341 C4.2,0.963410018 16.74,-3.58258998 25.388,3.17741002 C30.442,7.15341002 31.698,12.77741 31.448,19.07741 L2.96,19.07741 C2.532,30.41741 10.694,37.26141 21.1,33.76941 C24.75,32.54341 26.9,29.68541 27.976,26.10941 C28.522,24.31741 29.426,24.03741 31.11,24.54941 C30.25,29.02141 28.31,32.75741 24.21,35.09541 C18.084,38.59541 9.34,37.46341 4.74,32.59941 C2,29.77741 0.868,26.20141 0.36,22.37741 C0.28,21.74541 0.12,21.14341 0,20.53741 C0.0106666667,19.5027434 0.016,18.4680767 0.016,17.43341 L0.016,17.43141 Z M3.012,16.67141 L28.756,16.67141 C28.588,8.47141002 23.482,2.64741002 16.504,2.59741002 C8.844,2.53741002 3.344,8.22341002 3.012,16.67141 L3.012,16.67141 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

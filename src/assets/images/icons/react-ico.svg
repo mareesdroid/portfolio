@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="114px" viewBox="0 0 114 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <defs>
+        <filter x="-14.4%" y="-14.4%" width="128.7%" height="128.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-1" dy="-3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-993.000000, -228.000000)">
+            <g id="Group-14" filter="url(#filter-1)" transform="translate(1003.000000, 238.000000)">
+                <circle id="Oval" cx="47" cy="47" r="47"></circle>
+                <g id="react" transform="translate(4.000000, 2.976473)">
+                    <circle id="Oval" fill="#61DAFB" fill-rule="nonzero" cx="42" cy="44.0235274" r="7"></circle>
+                    <g id="Group" stroke="#61DAFB" stroke-width="2">
+                        <ellipse id="Oval" cx="42.5" cy="44.0235274" rx="42.5" ry="16"></ellipse>
+                        <ellipse id="Oval" transform="translate(42.331423, 44.500000) rotate(60.000000) translate(-42.331423, -44.500000) " cx="42.3314229" cy="44.5" rx="42.0712252" ry="16.1305004"></ellipse>
+                        <ellipse id="Oval" transform="translate(42.331423, 44.500000) rotate(120.000000) translate(-42.331423, -44.500000) " cx="42.3314229" cy="44.5" rx="42.0712252" ry="16.1305004"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

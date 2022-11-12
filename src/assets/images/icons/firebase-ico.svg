@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 24</title>
+    <defs>
+        <filter x="-12.8%" y="-12.8%" width="125.5%" height="125.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-1449.000000, -480.000000)">
+            <g id="Group-24" filter="url(#filter-1)" transform="translate(1458.000000, 489.000000)">
+                <circle id="Oval-Copy-6" cx="47" cy="47" r="47"></circle>
+                <g id="firebase-icon" transform="translate(17.000000, 6.000000)" fill-rule="nonzero">
+                    <path d="M39,29.5238367 L30.7007287,37 L23,21.959866 L26.9851012,13.3095938 C28.0215385,11.553448 29.6383806,11.5735183 30.6489069,13.3095938 L39,29.5238367 Z" id="Path" fill="#FFA000"></path>
+                    <polygon id="Path" fill="#F57F17" points="23.3030911 22 31 37.7486865 0 67"></polygon>
+                    <path d="M48.4943956,17.8222343 C49.9796598,16.3887821 51.5168564,16.8787621 51.9089453,18.9090516 L60,66.0956898 L33.1821526,82.2546049 C32.2473709,82.7758602 29.7546198,83 29.7546198,83 C29.7546198,83 27.4851777,82.7289472 26.6205046,82.218117 L0,66.4814188 L48.4943956,17.8222343 Z" id="Path" fill="#FFCA28"></path>
+                    <path d="M23,22.2945973 L0,67 L10.2435256,1.66434583 C10.621874,-0.371276706 11.756919,-0.567009642 12.7692564,1.22851383 L23,22.2945973 Z" id="Path" fill="#FFA000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

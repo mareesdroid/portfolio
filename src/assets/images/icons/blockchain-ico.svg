@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 20</title>
+    <defs>
+        <filter x="-17.0%" y="-17.0%" width="134.0%" height="134.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-2" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-1093.000000, -834.000000)">
+            <g id="Group-20" filter="url(#filter-1)" transform="translate(1105.000000, 846.000000)">
+                <circle id="Oval-Copy-24" cx="47" cy="47" r="47"></circle>
+                <g id="icons8-blockchain-new-logo" transform="translate(9.000000, 9.000000)" fill-rule="nonzero">
+                    <path d="M31.5831398,2.62971517 L22,12.1247113 L38.013597,28 L54,12.1426739 L44.398731,2.62971517 C42.6274999,0.876571722 40.3087644,0 37.9900289,0 C35.6712934,0 33.3525579,0.876571722 31.5831398,2.62971517 Z" id="Path" fill="#8097A2"></path>
+                    <path d="M22.0263646,12 L2.64750393,31.4895423 C0.882501309,33.2646256 0,35.5907851 0,37.9169445 C0,40.243104 0.882501309,42.5692634 2.64750393,44.3443468 L12.2483225,54 L38,28.0739618 L22.0263646,12 Z" id="Path" fill="#37474F"></path>
+                    <polygon id="Path" fill="#1565C0" points="70 27.9716717 54.0729095 12 38 28.1343309 53.8104352 44"></polygon>
+                    <path d="M73.38561,31.5691255 L69.8708626,28 L54,43.9131831 L63.9259898,54 L73.3838232,44.3958406 C75.1135006,42.6394026 75.9854867,40.342243 76,38.0396399 C76.0158633,35.6989322 75.1438772,33.3545956 73.38561,31.5691255 Z" id="Path" fill="#90CAF9"></path>
+                    <path d="M12,53.9064062 L31.5312796,73.3393912 C33.3139907,75.1131304 35.6501458,76 37.9863009,76 C40.322456,76 42.6586111,75.1131304 44.4413221,73.3393912 L64,53.8791458 L38.0082195,28 L12,53.9064062 Z" id="Path" fill="#03A9F4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

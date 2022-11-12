@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="96px" viewBox="0 0 74 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CSS3_logo_and_wordmark</title>
+    <defs>
+        <filter x="-25.0%" y="-17.8%" width="150.0%" height="135.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-3" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-1115.000000, -576.000000)" fill-rule="nonzero">
+            <g id="CSS3_logo_and_wordmark" filter="url(#filter-1)" transform="translate(1125.000000, 586.000000)">
+                <polygon id="polygon2989" fill="#264DE4" points="54 15 49.0804612 69.8936239 26.966951 76 4.91432841 69.9022242 0 15"></polygon>
+                <polygon id="polygon2991" fill="#2965F1" points="44.8098064 66.0507424 49 19 27 19 27 71"></polygon>
+                <polygon id="polygon2993" fill="#EBEBEB" points="11 40 11.6161415 47 27 47 27 40"></polygon>
+                <polygon id="polygon2995" fill="#EBEBEB" points="27 26 26.9765606 26 10 26 10.6162925 33 27 33"></polygon>
+                <polygon id="polygon2997" fill="#EBEBEB" points="27 63.9916396 27 57.1813352 26.9700274 57.1889749 19.3527728 55.2205222 18.8658312 50 15.1644426 50 12 50 12.9582191 60.2777274 26.9685213 64"></polygon>
+                <polygon id="path2999" fill="#000000" points="12 0 20 0 20 3.33333333 15.3454545 3.33333333 15.3454545 6.66666667 20 6.66666667 20 10 12 10"></polygon>
+                <polygon id="path3001" fill="#000000" points="23 0 31 0 31 2.85714286 26.3454545 2.85714286 26.3454545 3.42857143 31 3.42857143 31 10 23 10 23 7 27.6545455 7 27.6545455 6.42857143 23 6.42857143"></polygon>
+                <polygon id="path3003" fill="#000000" points="32 0 40 0 40 2.85714286 35.3454545 2.85714286 35.3454545 3.42857143 40 3.42857143 40 10 32 10 32 7 36.6545455 7 36.6545455 6.42857143 32 6.42857143"></polygon>
+                <polygon id="polygon3005" fill="#FFFFFF" points="35.356682 46.2941547 34.5689558 54.9978143 27 57.0180376 27 64 40.9124602 60.1869949 41.0145314 59.0531871 42.6092621 41.3853226 42.7748475 39.5832303 44 26 27 26 27 32.7110722 36.5627055 32.7110722 35.9451975 39.5832303 27 39.5832303 27 46.2941547"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

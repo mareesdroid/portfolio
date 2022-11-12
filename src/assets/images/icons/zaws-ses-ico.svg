@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>aws-ses</title>
+    <defs>
+        <filter x="-17.9%" y="-17.9%" width="135.8%" height="135.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-979.000000, -794.000000)" fill-rule="nonzero">
+            <g id="aws-ses" filter="url(#filter-1)" transform="translate(988.000000, 803.000000)">
+                <polyline id="Path" fill="#876929" points="15.7257677 11 0 32.4982161 15.7257677 54 16 53.832087 15.7987405 11.0441524 15.7257677 11"></polyline>
+                <polyline id="Path" fill="#D9A741" points="34 50.135771 16 54 16 11 34 14.863337 34 50.135771"></polyline>
+                <polyline id="Path" fill="#876929" points="67 16.1283662 58.5591336 17.3381957 39.1811312 0 29.5474099 3.6561939 30.8182004 5.71027828 24 8.07248654 24 62.7017504 33.9115449 67 34.0764784 66.8880162 33.9239732 10.731149 54.9334449 38.3271993 67 16.1283662"></polyline>
+                <polyline id="Path" fill="#D9A741" points="39 0 65 11.0879389 54.7185766 27 39 0"></polyline>
+                <polyline id="Path" fill="#D9A741" points="66.9935461 16.4207414 67 52.7297072 34.0043886 67 34 5 54.8150669 37.6414318 66.9935461 16.4207414"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

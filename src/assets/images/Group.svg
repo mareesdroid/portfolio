@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1177px" height="1648px" viewBox="0 0 1177 1648" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <rect id="path-1" x="148" y="742" width="95" height="95" rx="8"></rect>
+        <filter x="-4.2%" y="-4.2%" width="108.4%" height="108.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-5" dy="5" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="225" cy="225" r="225"></circle>
+        <filter x="-1.0%" y="-1.0%" width="104.0%" height="104.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="1080.5" cy="946.5" r="96.5"></circle>
+        <filter x="-7.0%" y="-2.3%" width="109.3%" height="109.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="-5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="604.5 931 945.453761 1178.71741 815.221013 1579.53259 393.778987 1579.53259 263.546239 1178.71741"></polygon>
+        <filter x="-0.6%" y="-1.9%" width="102.5%" height="102.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="5" dy="-5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="794.79807" y="194.444724" width="280" height="280" rx="50"></rect>
+        <filter x="-1.6%" y="-4.8%" width="106.4%" height="106.4%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="5" dy="-5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact-Me" transform="translate(135.000000, 172.000000)">
+            <g id="Group" transform="translate(-135.000000, -172.000000)">
+                <g id="Rectangle" opacity="0.149623326" transform="translate(195.500000, 789.500000) rotate(19.000000) translate(-195.500000, -789.500000) ">
+                    <use fill="#44D7B6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" stroke-linejoin="square" x="148.5" y="742.5" width="94" height="94" rx="8"></rect>
+                </g>
+                <g id="Oval" opacity="0.151576451">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <circle stroke="#979797" stroke-width="1" stroke-linejoin="square" fill="#44D7B6" fill-rule="evenodd" cx="225" cy="225" r="224.5"></circle>
+                </g>
+                <g id="Oval-Copy" opacity="0.151576451">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <circle stroke="#979797" stroke-width="1" stroke-linejoin="square" fill="#44D7B6" fill-rule="evenodd" cx="1080.5" cy="946.5" r="96"></circle>
+                </g>
+                <g id="Polygon" opacity="0.154924665">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <path stroke="#979797" stroke-width="1" d="M604.5,931.618034 L944.865976,1178.90839 L814.857742,1579.03259 L394.142258,1579.03259 L264.134024,1178.90839 L604.5,931.618034 Z" stroke-linejoin="square" fill="#44D7B6" fill-rule="evenodd"></path>
+                </g>
+                <g id="Rectangle" opacity="0.153576079" transform="translate(934.798070, 334.444724) rotate(74.000000) translate(-934.798070, -334.444724) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    <rect stroke="#979797" stroke-width="1" stroke-linejoin="square" fill="#44D7B6" fill-rule="evenodd" x="795.29807" y="194.944724" width="279" height="279" rx="50"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

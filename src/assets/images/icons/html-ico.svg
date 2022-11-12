@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="114px" viewBox="0 0 114 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 17</title>
+    <defs>
+        <filter x="-14.4%" y="-14.4%" width="128.7%" height="128.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-3" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-950.000000, -488.000000)">
+            <g id="Group-17" filter="url(#filter-1)" transform="translate(960.000000, 498.000000)">
+                <circle id="Oval-Copy-22" cx="47" cy="47" r="47"></circle>
+                <g id="HTML5_logo_and_wordmark" transform="translate(20.000000, 9.000000)" fill-rule="nonzero">
+                    <path d="M5,0 L8.49780331,0 L8.49780331,3.30434783 L11.7218655,3.30434783 L11.7218655,0 L15.2196688,0 L15.2196688,10 L11.7218655,10 L11.7218655,6.66666667 L8.52821899,6.66666667 L8.52821899,10 L5,10 M19.8428523,3.33333333 L16.7556607,3.33333333 L16.7556607,0 L26.4430551,0 L26.4430551,3.33333333 L23.3406556,3.33333333 L23.3406556,10 L19.8428523,10 M27.979047,0 L31.6441365,0 L33.8948969,3.52173913 L36.1456573,0 L39.8107469,0 L39.8107469,10 L36.3129436,10 L36.3129436,5.04347826 L33.8644812,8.63768116 L31.4160189,5.04347826 L31.4160189,10 L27.979047,10 M41.5444407,0 L45.042244,0 L45.042244,6.69565217 L50,6.69565217 L50,10 L41.5444407,10" id="Shape" fill="#000000"></path>
+                    <polyline id="Path" fill="#E44D26" points="4.91179713 70.8210987 0 15 54 15 49.0882029 70.7909577 26.9553473 77"></polyline>
+                    <polyline id="Path" fill="#F16529" points="27 73 27 20 50 20 45.6109238 67.9198856"></polyline>
+                    <path d="M10,27 L27,27 L27,33.8814613 L17.4263158,33.8814613 L18.0526316,40.9296541 L27,40.9296541 L27,47.795958 L11.8491228,47.795958 M12.1473684,51.2518461 L18.9473684,51.2518461 L19.4245614,56.7539837 L27,58.8153906 L27,66 L13.1017544,62.059075" id="Shape" fill="#EBEBEB"></path>
+                    <path d="M44,27 L27,27 L27,33.8868145 L43.3725835,33.8868145 M42.7601054,40.9404901 L27,40.9404901 L27,47.8273046 L35.3655536,47.8273046 L34.5738137,56.7771295 L27,58.84014 L27,66 L40.8927944,62.0863477" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

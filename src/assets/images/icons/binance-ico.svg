@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <filter x="-17.0%" y="-17.0%" width="134.0%" height="134.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-1693.000000, -819.000000)">
+            <g id="Group-2" filter="url(#filter-1)" transform="translate(1705.000000, 831.000000)">
+                <circle id="Oval-Copy-27" cx="47" cy="47" r="47"></circle>
+                <g id="Binance_logo" transform="translate(5.000000, 5.000000)" fill="#F3BA2F" fill-rule="nonzero">
+                    <polygon id="Path" points="26.378263 34.9914499 42.4957392 18.8206554 58.621737 35 68 25.59033 42.4957392 0 17 25.5817799"></polygon>
+                    <polygon id="Rectangle" transform="translate(9.379043, 41.498764) rotate(45.000000) translate(-9.379043, -41.498764) " points="2.74722184 34.8666159 16.0108632 34.8666159 16.0108632 48.1309128 2.74722184 48.1309128"></polygon>
+                    <polygon id="Path" points="24.3886498 48.0078925 40.5003276 64.1789909 56.6198687 48 66 57.4045852 65.9954131 57.4098468 40.5003276 83 15.0131053 57.4183971 15 57.4052429"></polygon>
+                    <polygon id="Rectangle" transform="translate(73.622162, 41.503183) rotate(135.000000) translate(-73.622162, -41.503183) " points="66.9900139 34.8713625 80.2543108 34.8713625 80.2543108 48.1350038 66.9900139 48.1350038"></polygon>
+                    <polygon id="Path" points="51.9914974 42.4950948 51.9954217 42.4950948 42.5 33 35.4827539 40.0170046 35.4820998 40.0170046 34.6763167 40.823414 33.0130809 42.4865925 33.0130809 42.4865925 33 42.499673 33.0130809 42.5134075 42.5 52 51.9954217 42.5049052 52 42.499673"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 19</title>
+    <defs>
+        <filter x="-17.0%" y="-17.0%" width="134.0%" height="134.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-2" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skills-2" transform="translate(-1187.000000, -704.000000)">
+            <g id="Group-19" filter="url(#filter-1)" transform="translate(1199.000000, 716.000000)">
+                <circle id="Oval-Copy-17" cx="47" cy="47" r="47"></circle>
+                <g id="Sketch_Logo" transform="translate(10.000000, 16.000000)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FDB300" points="16.3636365 2.23883929 37.5000001 0 58.6363637 2.23883929 75 24.2477678 37.5000001 68 0 24.2477678"></polygon>
+                    <polygon id="Path" fill="#EA6C00" points="14.9868415 24 37 68 0 24"></polygon>
+                    <polygon id="Path" fill="#EA6C00" points="59.0131585 24 37 68 74 24"></polygon>
+                    <polygon id="Path" fill="#FDAD00" points="15 24 60 24 37.5 68"></polygon>
+                    <polygon id="Path" fill="#FDD231" points="37 0 16.1578452 2.21593462 15 24"></polygon>
+                    <polygon id="Path" fill="#FDD231" points="38 0 58.8421548 2.21593462 60 24"></polygon>
+                    <path d="M75,24 L58.6362479,2 L59.8106324,24 L75,24 Z M0,24 L16.3635614,2 L15.1893676,24 L0,24 Z" id="Shape" fill="#FDAD00"></path>
+                    <polygon id="Path" fill="#FEEEB7" points="37.5 0 15 24 60 24"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
