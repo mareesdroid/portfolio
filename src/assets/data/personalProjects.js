@@ -66,13 +66,20 @@ const personalProject = [
     title: "Portfolio",
     tech_stack: "React JS, AWS Serverless API Gateway, AWS SES, AWS S3, Tailwind CSS",
     description:
-      "Built with React & Serverless API Gateway, Business logic coded on aws Lambda, Design framework used tailwind css, ui framework intergrated with Daisy UI, For Designing pages used Sketch App for mac.",
-    link: "https://github.com/mareesdroid/Mars_GCM_Cloud",
+      "Built with React & Serverless API Gateway, Business logic coded on AWS Lambda, Design framework used Tailwind CSS, UI framework intergrated with Daisy UI, For Designing pages used Sketch App for mac.",
+    link: "https://github.com/mareesdroid/portfolio",
     img: require("../images/mars_backend.jpg"),
     technologies: [
-      "Google cloud script",
-      "Google sheet api",
-      "Google drive api"
+      "React JS",
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS SES",
+      "AWS S3",
+      "Tailwind CSS",
+      "Daisy UI",
+      "Framer Motion",
+      "CK Editor",
+      "Sketch App"
     ],
   },
   {

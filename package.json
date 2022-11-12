@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "sudo netlify deploy --prod"
+    "deploy": "sudo netlify deploy --prod",
     "tail": "tailwindcss -i ./index.css -o ./css/main.css",
     "tailwatch": "tailwindcss -i ./index.css -o ./css/main.css --watch"
   },
