@@ -897,3 +897,15 @@ to {
     padding: 0 2rem 2rem 2rem;
   }
 }
+
+.menu-compact{
+  overflow-x: hidden;
+}
+
+.glass {
+  backdrop-filter: blur(var(--glass-blur, 5px));
+}
+
+.glass-nav, .glass-nav:hover, .glass-nav.btn-active {
+  background-color: #34d399;
+}

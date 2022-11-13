@@ -107,7 +107,7 @@ const Navbar = () => {
 
 
     return (
-        <nav id="navbar" ref={navBar} className={`backdrop-blur-lg mx-auto shadow-md`}>
+        <nav id="navbar" ref={navBar} className={`glass mx-auto shadow-md`}>
             <div className='container mx-auto drop-shadow-md flex items-center justify-between p-1'>
                 <div className='pt-2'>
                     <img className='h-12 hover:cursor-pointer' onClick={() => navigate('/')} src={signature} alt='logo' />
@@ -129,7 +129,7 @@ const Navbar = () => {
                            {nav &&  <div id="nav-menu" className='relative w-screen'> 
                                 <motion.div initial={{ x: '150%', y:'-250%' }}
                                 animate={{ x: '0%', y:'0%' }}
-                                transition={{ type: "spring", duration: 1, }} className='absolute z-50 glass bg-emerald-400 -top-10 -right-10'>
+                                transition={{ type: "spring", duration: 1, }} className='glass-nav absolute z-50 glass bg-emerald-400 -top-10 -right-10'>
                                 <ul ref={menuRef} className="relative z-50 lg:hidden menu menu-compact w-56 p-2 rounded-box">
                                 <li><a name='home' onClick={(e) => {
                                     handleMenuClick()
@@ -201,7 +201,7 @@ const Navbar = () => {
                             {nav &&  <div id="nav-menu" className='relative w-screen'> 
                                 <motion.div initial={{ x: '150%', y:'-250%' }}
                                 animate={{ x: '0%', y:'0%' }}
-                                transition={{ type: "spring", duration: 1, }} className='absolute z-50 glass bg-emerald-400 -top-10 -right-10'> 
+                                transition={{ type: "spring", duration: 1, }} className='glass-nav absolute z-50 glass bg-emerald-400 -top-10 -right-10'> 
                                 <ul ref={menuRef} className="relative z-50 lg:hidden menu menu-compact w-56 p-2 rounded-box">
                                 <li><a name='home' onClick={() => {
                                     handleMenuClick()
