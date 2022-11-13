@@ -74,15 +74,15 @@ const ProjectImg = ({ pattern, project: { id, tech_stack, image, role, technolog
                         transition={{ type: "spring", duration: 0.2, }}>
                         <div className="modal-box pt-0 px-0 relative">
                             <div className='flex items-center justify-between px-1.5 pt-1.5 bg-emerald-600'>
-                                <h3 className="text-lg text-emerald-200 p-2 font-bold">{title}</h3>
+                                <h3 className="text-md lg:text-lg text-white p-2 font-bold">{title}</h3>
                                 <label htmlFor="my-modal-1" onClick={() => setModal(false)} className="btn btn-sm btn-circle bg-emerald-600 border-0 text-xl text-white hover:bg-emerald-500 hover:text-emerald-900">✕</label>
                             </div>
 
                             {title === 'Modules Worked' ?
                         <div className='grid grid-cols-2 md:grid-cols-3  p-5'>
                             {
-                                Object.keys(modules).map(d => <div className='flex-1'>
-                                        <p className='text-xl '>{d}:</p>
+                                Object.keys(modules).map(d => <div className={Object.keys(modules).length === 1 ? 'w-screen' : 'flex-1'}>
+                                        <p className='text-lg lg:text-xl'>{d}:</p>
                                         <ul role="list" class="marker:text-emerald-900 list-disc pl-5 space-y-1 text-sm">
                                             {modules[d].map(d => <li>{d}</li>)}
                                         </ul>

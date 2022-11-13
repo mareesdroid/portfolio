@@ -45,8 +45,8 @@ const projects = [
     image: require("../images/moon.jpg"),
     role: "Frontend, Backend",
     modules: {
-      frontend: ["All modules"],
-      backend: ["Web3 contract integraion", "staking data aggregation"],
+      Frontend: ["All modules"],
+      Backend: ["Web3 contract integraion", "staking data aggregation"],
     },
     description:
       "NFT Moon Metaverse is the futuristic Create2Earn multi blockchain universe. It will be inhabited by self-driven and creative people craving for boundless opportunities. Users can connect wallet with Metamask or any crypto wallet to login, and can stake their Moon tokens, user can choose to stake plans based on plans they will get reward of more moon tokens.",
@@ -76,7 +76,7 @@ const projects = [
     description:
       "Gaming Akhada is an application platform where BGMI, COD, free fire gamers register their spots in match, and they are rewarded by prizes and rewards.",
     modules: {
-      Frontend: ["Chatbot, Realtime chat with firebase, Social login, UPI Payment, Deposit with upi, Course(Next version update), Multi video upload with progress"],
+      Frontend: ["Chatbot", "Realtime chat with firebase", "Social login", "UPI Payment", "Deposit with upi", "Course(Next version update)", "Multi video upload with progress"],
       "Admin panel": ["Add players", "Approve withdraw requests"],
     },
     technologies: [
@@ -133,7 +133,7 @@ const projects = [
     title: "X-PET Game",
     link: "https://xpetgame.osiztechnologies.in/",
     tech_stack: "ReactJS, NodeJS, MongoDB",
-    role: "frontend",
+    role: "Frontend",
     image: require("../images/x-pet.jpg"),
     description:
       "X-PET is a blockchain game on Ethereum, allows players to purchase, collect, breed and sell virtual pets. This game is inspired by Crypto kitties. Available pets are: Horse, Cat, Dog. — Project in demo stage waiting for client confirmation to go live.",
@@ -220,7 +220,7 @@ const projects = [
 
     tech_stack: "ReactJS, NodeJS, MongoDB",
     image: require("../images/vaagana_mechanic.jpg"),
-    role: "Backend",
+    role: "Frontend, Backend",
     modules: {
       "Frontend & Backend": ["All modules"],
     },
@@ -236,7 +236,7 @@ const projects = [
     image: require("../images/findyour_car.jpg"),
     role: "Frontend",
     modules: {
-      frontend: ["All modules"],
+      Frontend: ["All modules"],
     },
     description:
       "At FindYourCarApp you can make a decision on your next car using a variety of information that is present in our app. We are collecting all the information about the dealers cars to make your buying process as easy as possible. The app is designed to keep the entire search process as simple as possible. We have reduced the hops that are needed to contact a dealer. Save your favourite car, compare different model to make an informed decision before buying a car.",

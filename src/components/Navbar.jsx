@@ -68,27 +68,6 @@ const Navbar = () => {
 
     useEffect(() => {
         try {
-            //     if (hero.current && navBar) {
-            //         const obs = new IntersectionObserver(
-            //             function (entries) {
-            //                 const ent = entries[0];
-            //                 if (ent.isIntersecting === false) {
-            //                     navBar.current?.classList.add("sticky");
-            //                 }
-
-            //                 if (ent.isIntersecting === true) {
-            //                     navBar.current?.classList.remove("sticky");
-            //                 }
-            //             },
-            //             {
-            //                 // In the viewport
-            //                 root: null,
-            //                 threshold: 0,
-            //                 rootMargin: "-80px",
-            //             }
-            //         );
-            //         obs.observe(hero.current);
-            //     }
 
             var prevScrollpos = window.pageYOffset;
             window.onscroll = function () {
@@ -97,6 +76,10 @@ const Navbar = () => {
                 console.log('scrolling', currentScrollPos)
                 console.log('scrolling', currentScrollPos)
                 console.log(document.getElementById("navbar"))
+
+                if(currentScrollPos == 0){
+                    navBar.current?.classList.remove('sticky')
+                }
 
                 if (prevScrollpos > currentScrollPos) {
                     //   document.getElementById("navbar").style.top = "0";
@@ -131,7 +114,7 @@ const Navbar = () => {
                 </div>
                 {
                     location.pathname === '/' ? <>
-                        <div className='hidden md:flex space-x-6'>
+                        <div className='hidden lg:flex space-x-6'>
                             <a name='home' onClick={executeScroll} className="hover:text-emerald-600 text-lg hover:cursor-pointer">Home</a>
                             <a name='projects' onClick={executeScroll} className="hover:text-emerald-600 text-lg hover:cursor-pointer">Projects</a>
                             <a name='skills' onClick={executeScroll} className="hover:text-emerald-600 text-lg hover:cursor-pointer">Skills</a>
@@ -143,10 +126,11 @@ const Navbar = () => {
                         {/* <div className=""> */}
                             {/* <div  id="menu" className="absolute flex-col z-50 items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"> */}
 
-                           {nav &&  <motion.div id="nav-menu" className='absolute -left-10 z-50 glass bg-emerald-400'  initial={{ x: '150%', y:'-50%' }}
-                                animate={{ x: '100%', y:'0%' }}
-                                transition={{ type: "spring", duration: 1, }}> 
-                                <ul ref={menuRef} className="relative z-50 md:hidden menu menu-compact w-56 p-2 rounded-box">
+                           {nav &&  <div id="nav-menu" className='relative w-screen'> 
+                                <motion.div initial={{ x: '150%', y:'-250%' }}
+                                animate={{ x: '0%', y:'0%' }}
+                                transition={{ type: "spring", duration: 1, }} className='absolute z-50 glass bg-emerald-400 -top-10 -right-10'>
+                                <ul ref={menuRef} className="relative z-50 lg:hidden menu menu-compact w-56 p-2 rounded-box">
                                 <li><a name='home' onClick={(e) => {
                                     handleMenuClick()
                                     executeScroll(e)
@@ -177,6 +161,7 @@ const Navbar = () => {
                                 }} className="text-white font-semi-bold leading-6 text-lg tracking-wide hover:cursor-pointer">Contact</a></li>
                                 </ul>
                             </motion.div>
+                                </div>
 }
                             {/* <a name='home' onClick={(e) => {
                                     handleMenuClick()
@@ -207,16 +192,17 @@ const Navbar = () => {
                     </>
                         :
                         <>
-                            <div className='hidden md:flex space-x-6'>
+                            <div className='hidden lg:flex space-x-6'>
                                 <a name='home' onClick={() => navigate('/')} className="hover:text-emerald-600 text-lg hover:cursor-pointer">Home</a>
                                 <a name='works' onClick={executeScroll} className="hover:text-emerald-600 text-lg hover:cursor-pointer">My Works</a>
                                 <a name='personal' onClick={executeScroll} className="hover:text-emerald-600 text-lg hover:cursor-pointer">Personal Projects</a>
 
                             </div>
-                            {nav &&  <motion.div id="nav-menu" className='absolute -left-10 z-50 glass bg-emerald-400'  initial={{ x: '150%', y:'-50%' }}
-                                animate={{ x: '100%', y:'0%' }}
-                                transition={{ type: "spring", duration: 1, }}> 
-                                <ul ref={menuRef} className="relative z-50 md:hidden menu menu-compact w-56 p-2 rounded-box">
+                            {nav &&  <div id="nav-menu" className='relative w-screen'> 
+                                <motion.div initial={{ x: '150%', y:'-250%' }}
+                                animate={{ x: '0%', y:'0%' }}
+                                transition={{ type: "spring", duration: 1, }} className='absolute z-50 glass bg-emerald-400 -top-10 -right-10'> 
+                                <ul ref={menuRef} className="relative z-50 lg:hidden menu menu-compact w-56 p-2 rounded-box">
                                 <li><a name='home' onClick={() => {
                                     handleMenuClick()
                                     navigate('/')
@@ -231,11 +217,12 @@ const Navbar = () => {
                                 }} className="text-white font-semi-bold leading-6 text-lg tracking-wide hover:cursor-pointer">Personal Projects</a></li>
                                 </ul>
                             </motion.div>
+</div>
 }
                             
                         </>
                 }
-                <button id="menu-btn" ref={iconRef} onClick={handleMenuClick} className="block hamburger md:hidden focus:outline-none">
+                <button id="menu-btn" ref={iconRef} onClick={handleMenuClick} className="block hamburger lg:hidden focus:outline-none">
                     <span className="hamburger-top"></span>
                     <span className="hamburger-middle"></span>
                     <span className="hamburger-bottom"></span>

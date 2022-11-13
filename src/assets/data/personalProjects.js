@@ -111,8 +111,7 @@ const personalProject = [
       'com.android.support.constraint:constraint-layout:1.1.3',
       'junit:junit:4.12',
       'com.android.support.test:runner:1.0.2',
-      'com.android.support.test.espresso:espresso-core:3.0.2',
-      "android.arch.lifecycle:extensions:$archLifecycleVersion",
+      'com.android.support.test.espresso:espresso-core:3.0.2'
     ],
   },
   {
