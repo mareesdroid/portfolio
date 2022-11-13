@@ -72,6 +72,23 @@ body {
   /* overflow-x: hidden; */
 }
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+  background-position: 10% -20%;
+  }
+  .my-stack {
+    font-weight: 200;
+  }
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-position: -90% -20%;
+    }
+}
 
 /* Hamburger Menu */
 .hamburger {
@@ -342,6 +359,19 @@ body {
 
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .project-content {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .project-content {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
 
 .tech-content{
   background-image: url('./assets/images/Oval.svg');
@@ -725,76 +755,14 @@ body {
 .text-center {
   text-align: -webkit-center;
 }
+@media only screen and (max-width: 984px) {
 
-
-
-
-@keyframes MoveUpDown {
-  from {
-    background-size: 300px;
+  .my-stack {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: large !important;
+  }  
+  
 }
-to {
-    background-size: 500px;
-
-}
-}
-
-.swiper {
-  width: 60%;
-  height: 60%;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-
-.swiper-slide img {
-  width: 100%;
-}
-
-
-
-.modal{
-  transition: none !important;;
-  transition-duration: 0;
-}
-
-.sticky {
-  position: fixed !important;
-  top: 0 !important;
-  width: 100% !important;
-  transition: top 0.3s !important;
-  z-index: 99999999 !important;
-}
-
-.hero {
-  margin-top: 2rem;
- 
-}
-
-#navbar .hero {
-  margin-top: 2rem;
-}
-
-#menu {
-  z-index: 99999999;
-}
-
-.absolute{
-  z-index: 100;
-}
-
-#nav-menu{
-  top: 64px;
-}
-
-.swiper-pagination-bullet-active {
-  background: #10b981 !important;
-}
-
 
 @media only screen and (max-width: 1240px) {
   body{
@@ -827,7 +795,36 @@ to {
   background-size: 100px;
     background-position: 180% 0%;
   }
+
   
+    
+  
+}
+
+@keyframes MoveUpDown {
+  from {
+    background-size: 300px;
+}
+to {
+    background-size: 500px;
+
+}
+}
+
+.swiper {
+  width: 60%;
+  height: 60%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -855,48 +852,36 @@ to {
   
 }
 
-@media only screen and (max-width: 984px) {
+.modal{
+  transition: none !important;;
+  transition-duration: 0;
+}
 
-  .my-stack {
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: large !important;
-  }  
-  
+.sticky {
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 99999999;
+}
+
+#navbar .hero {
+  margin-top: 2rem;
+}
+
+#menu {
+  z-index: 99999999;
+}
+
+.absolute{
+  z-index: 100;
+}
+
+#nav-menu{
+  top: 64px;
 }
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  body {
-  background-position: 10% -20%;
-  }
-  .my-stack {
-    font-weight: 200;
-  }
- 
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  body {
-    background-position: -90% -20%;
-    }
-}
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .project-content {
-    padding: 0 2rem 2rem 2rem;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .project-content {
-    padding: 0 2rem 2rem 2rem;
-  }
-}
 
 .menu-compact{
   overflow-x: hidden;
@@ -908,4 +893,33 @@ to {
 
 .glass-nav, .glass-nav:hover, .glass-nav.btn-active {
   background-color: #34d399;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 2.5px;
+}
+::-webkit-scrollbar:hover {
+  /* width: 11px; */
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #16a34a; 
+  border-radius: 2.5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00c800; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover ::-webkit-scrollbar {
+  width: 20px;
 }
